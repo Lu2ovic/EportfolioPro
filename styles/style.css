@@ -1,22 +1,22 @@
 body{
-    background-color: #5132CD;
-    color: aliceblue;
+    background-color: #4165BA;
+    color: #fff;
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    background-color: #111D85;
+    background-color: #10305d;
     display: flex;
     justify-content: center;
 }
 
 .acc{
-    background-color: #111D85;
+    background-color: #10305d;
 }
 
 main{
-    background-color: #5132CD;
+    background-color: #4165BA;
     padding: 30px;
 }
 
@@ -24,8 +24,19 @@ main{
     margin:-20px 0px 0px -10px;
 }
 
+p{
+    width: 40%;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.variante{
+    color: #aeb3e2;
+    margin-left:40px;
+}
+
 h1{
-    color: #8188c9;
+    color: #aeb3e2;
     font-size: 200px;
     text-align: center;
     margin: 30px;
@@ -35,25 +46,57 @@ h1{
 
 
 h2{
-    background-color: #111D85;
+    background-color: #10305d;
     padding: 24px;
-    margin: 12px;
+    margin: 12px 50px 12px 50px;
     border-radius: 10vh;
-    
     font-size: 70px;
 }
 
 a{
-    color: aliceblue;
+    
+    color: #fff;
     text-decoration: none;
+    display: flex;
 }
 
 h3{
     text-align: center;
-    margin:10px 25px 10px 25px;
+    margin:10px;
     font-size: 38px;
 }
 
+.TPage{
+    display: flex;
+}
+
 .textFonc{
-    color:#8188c9;
+    color:#aeb3e2;
+}
+
+
+.hau{
+    margin-left: -50px; 
+}
+
+
+
+
+
+
+.sectionGauche{
+    margin-left:-140px;
+}
+
+.sectionGauche2{
+    padding-left:200px;
+}
+
+.sectionDroite{
+    margin-right:-140px;
+    justify-content: right;
+}
+
+.sectionDroite2{
+    padding-right:200px;
 }
