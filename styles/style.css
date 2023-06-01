@@ -6,9 +6,13 @@ body{
 }
 
 header{
-    background-color: #4165BA;
+    background-color: #10305d;
     display: flex;
     justify-content: center;
+}
+
+.head1{
+    background-color: #4165BA;
     padding-bottom: 540px;
 }
 
@@ -17,7 +21,7 @@ header{
 }
 
 main{
-    background-color: #10305d;
+    background-color: #4165BA;
     /*padding: 30px;*/
 }
 
@@ -41,9 +45,9 @@ h1{
     color: #aeb3e2;
     font-size: 200px;
     text-align: center;
-    margin: 30px;
+    margin: 50px;
     margin-bottom: -60px;
-    z-index: 3;
+    z-index: 2;
 }
 
 
@@ -57,6 +61,13 @@ h2{
 }
 
 a{
+    color:#fff;
+    position:relative;
+    text-decoration: none;
+    display: flex;
+}
+
+div{
     position:relative;
     text-decoration: none;
     display: flex;
@@ -82,8 +93,12 @@ h3{
 
 
 .hau{
-    margin-left: -16px; 
+    margin-left: 0px; 
     margin-bottom: -20px;
+}
+
+.her{
+    margin-left: 60px;
 }
 
 
@@ -100,12 +115,16 @@ h3{
 }
 
 .sectionDroite{
-    margin-right:-140px;
+    margin-right:0px;
     justify-content: right;
 }
 
 .sectionDroite2{
     padding-right:200px;
+    margin-right:0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
 }
 
 
@@ -137,4 +156,16 @@ section{
     color: #fff;
     z-index: 3;
     transform: translateY(-440px) ;
+}
+
+
+
+
+
+.foncé{
+    background-color: #10305d;
+}
+
+.claire{
+    background-color: #4165BA;
 }
