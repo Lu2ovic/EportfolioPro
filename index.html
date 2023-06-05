@@ -10,36 +10,45 @@
 <body class="acc">
     <header class="head1">
         <h2 class="TitreAcc">Portfolio de</h2>
-        <h1>Ludovic</h1>
-        <a href="pages/MonCV.html" class="Moncv">Mon CV</a>
+        <h1 data-speed=-0.2>Ludovic</h1>
+        <a href="pages/MonCV.html" class="Moncv clickable">Mon CV</a>
         
     </header>
     <main class="foncé">
-        <section>
+        <section data-speed=0>
             <img class="mont"
         src="images/SVG/montFolioFichier 4.svg"
         alt="triangle arrondie" 
         width="100%"/>
         </section>
-        <div class="principal hau"><h2 class="hau">HAUPTMANN</h2></div>
-        <div class="principal her"><h2 class="her">-HERBETTE</h2></div>
-        <div class="principal sectionDroite"><h2 class="sectionDroite2 text">Du texte pour dire des choses Comme ci comme ca</h2></div>
-        <a href="pages/aPropos.html" class="principal sectionGauche"><h2 class="sectionGauche2">À propos</h2></a>
-        <div class="principal sectionDroite"><h2  class="sectionDroite2">Projets</h2></div>
-        <a href="#" class="principal sectionGauche"><h2  class="sectionGauche2">Portfolio de compétence</h2></a>
-        <a href="#" class="principal sectionGauche"><h2  class="sectionGauche2">Logo CAWALTAG</h2></a>
-        <a href="#" class="principal sectionGauche"><h2  class="sectionGauche2">Animation Logo Turnip9</h2></a>
-        <div class="principal sectionDroite">
-            <h2 class="sectionDroite2">Me contacter</h2>
-        </div>
-        <div class="principal sectionDroite">
-            <p><a href="https://www.linkedin.com/in/ludovic-hauptmann-herbette-880220265/">Mon LinkedIn</a>
-            Mon mail : ludovic.hauptmann1@gmail.com</p>
-        </div>
+        <section class="sec2">
+            <div data-speed=0.03 class="principal hau"><h2 class="hau">HAUPTMANN</h2></div>
+            <div data-speed=-0.01 class="principal her"><h2 class="her">-HERBETTE</h2></div>
+            <div data-speed=-0.1 class="principal sectionDroite"><h2 class="sectionDroite2 text">Du texte pour dire des choses Comme ci comme ca</h2></div>
+            <a data-speed=0.05 href="pages/aPropos.html" class="principal sectionGauche"><h2 class="sectionGauche2 clickable">À propos</h2></a>
+        </section>
+        <section class="sec3">
+            <div data-speed=-0.3 class="principal sectionDroite"><h2  class="sectionDroite2">Projets</h2></div>
+        </section>
+        <section class="sec4">
+            <a href="#" class="principal sectionGauche"><h2  class="sectionGauche2 clickable">Portfolio de compétence</h2></a>
+            <a href="#" class="principal sectionGauche"><h2  class="sectionGauche2 clickable">Logo CAWALTAG</h2></a>
+            <a href="#" class="principal sectionGauche"><h2  class="sectionGauche2 clickable">Animation Logo Turnip9</h2></a>
+        </section>
+        <section data-speed=0.05 class="sec5">
+            <div class="principal sectionDroite" onclick="contact()">
+                <h2 class="sectionDroite2 clickable" >Me contacter</h2>
+            </div>
+            <div class="principal sectionDroite contact">
+                <p><a href="https://www.linkedin.com/in/ludovic-hauptmann-herbette-880220265/">Mon LinkedIn</a>
+                Mon mail : ludovic.hauptmann1@gmail.com</p>
+            </div>
+        </section>
+        
                 
             
             
-        
+        <script src="js/script.js"></script>
     </main>
     
 </body>
