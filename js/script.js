@@ -20,5 +20,5 @@ var paraEl = document.querySelectorAll("[data-speed]");
 
 function contact(info) 
 { 
-    document.querySelector(".contact").classList.toggle("cacher")
+    document.querySelector(".contact").classList.toggle("montrer")
 }
