@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/phone.css" media="screen and (min-width:443px)">
     <link rel="stylesheet" href="styles/ordi.css" media="screen and (min-width:800px)">
-    <link rel="stylesheet" href="../styles/tab.css" media="screen and (min-width:1130px)">
+    <link rel="stylesheet" href="styles/tab.css" media="screen and (min-width:1130px)">
     <title>E-portfolio Ludovic HAUPTMANN-HERBETTE</title>
     <link rel="icon" type="image/x-icon" href="images/SVG/favicon.ico">
 </head>
@@ -18,40 +19,44 @@
         
     </header>
     <main class="foncé">
-        <section data-speed=0>
+        <div data-speed=0>
             <img class="mont"
         src="images/SVG/montFolioFichier 4.svg"
         alt="triangle arrondie" 
         width="100%"/>
-        </section>
+        </div>
         <section class="sec2">
-            <div data-speed=0.03 class="principal hau"><h2 class="hau">HAUPTMANN</h2></div>
-            <div data-speed=-0.01 class="principal her"><h2 class="her">-HERBETTE</h2></div>
-            <div data-speed=-0.1 class="principal sectionDroite pacc"><h2 class="sectionDroite2 text">Animé par l’idée de tester divers types de créativité,<br>associé à la curiosité qui m’accompagne, et mon intérêt<br>pour le monde du numérique. Je suis actuellement en<br>première année du BUT métier du multimédia et de l’internet.</h2></div>
-            <section data-speed=-0.2 class="sec2 ArriveT"><a href="pages/aPropos.html" class="principal sectionGauche ab clickable"><span class="sectionGauche2">À propos</span></a></section>
+            <div data-speed=0.03 class="principal"><h2 class="hau">HAUPTMANN</h2></div>
+            <div data-speed=-0.01 class="principal"><h2 class="her">-HERBETTE</h2></div>
+            
         </section>
+        <section class="colleDroit mod">
+            <div data-speed=-0.1 class="principal sectionDroite pacc "><h2 class="sectionDroite2 text">Animé par l’idée de tester divers types de créativité,<br>associé à la curiosité qui m’accompagne, et mon intérêt<br>pour le monde du numérique. Je suis actuellement en<br>première année du BUT métier du multimédia et de l’internet.</h2></div>
+        </section>
+        <section data-speed=-0.02 class="sec2bis ArriveT">
+            <a href="pages/aPropos.html" class=" clickable"><span>À propos</span></a></section>
         <section class="sec3">
-            <div data-speed=-0.65 class="principal sectionDroite"><h2  class="sectionDroite2 ">Projets</h2></div>
+            <h1>PROJETS</h1>
         </section>
         <section class="sec4"> 
-            <a href="pages/portfolio.html" class="principal sectionGauche clickable projet">
-                <span  class="sectionGauche2 tra">
+            <a href="pages/portfolio.html" class="principal sectionGauche clickable  taillemin">
+                <span>
                     Portfolio de compétence
                 </span>
                 <div class="card">
                     <img class="miniature" src="images/SVG/Capture_ecran_site_acceuil.png" alt="site portfolio" />
                 </div>
             </a>
-            <a href="pages/cawaltag.html" class="principal sectionGauche clickable projet">
-                <span  class="sectionGauche2 tra">
+            <a href="pages/cawaltag.html" class="principal sectionGauche clickable  taillemin">
+                <span>
                     Logo CAWALTAG
                 </span>
                 <div class="card">
                     <img class="miniature" src="images/SVG/frameInGameFichier 6.svg" alt="logo cawaltag" />
                 </div>
             </a>
-            <a href="pages/animTurnip.html" class="principal sectionGauche clickable projet">
-                <span  class="sectionGauche2 tra">
+            <a href="pages/animTurnip.html" class="principal sectionGauche clickable  taillemin">
+                <span>
                     Animation du Logo Turnip9
                 </span>
                 <div class="card">
@@ -59,13 +64,13 @@
                 </div>
             </a>
         </section>
-        <section class="sec5">
+        <section class="sec5 colleDroit">
             <div class="principal sectionDroite " onclick="contact()">
                 <h2 class="sectionDroite2 clickable" >Me contacter</h2>
             </div>
             <div class="contact principal sectionDroite  transparent">
-                <p class="pargraphe">
-                        <a class="transparent ap clickableb" href="https://www.linkedin.com/in/ludovic-hauptmann-herbette-880220265/"> 
+                <p class="pargraphe" id="contact">
+                        <a  class="transparent ap clickableb" href="https://www.linkedin.com/in/ludovic-hauptmann-herbette-880220265/"> 
                             <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16"> <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" fill="white"></path> </svg>
                             Mon LinkedIn
                         </a>

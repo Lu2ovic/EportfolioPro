@@ -2,4 +2,28 @@
     .grid2{
         grid-template-columns: 1fr 1fr 1fr;
       }
+
+      .mont{
+        transform: translateY(-69dvh) ;
+        
+    }
+
+    .head1{
+        padding-bottom: 540px;
+    }
+
+    .sec2{
+        transform: translate(180px,-430px);
+    }
+
+    h1{
+        font-size: 200px;
+        margin: -10px auto 30px 50px;
+       
+    }
+
+    .montrer{
+        top:-100px;
+        right:100%;
+    }
 }

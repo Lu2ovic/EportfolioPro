@@ -14,7 +14,7 @@ var paraEl = document.querySelectorAll("[data-speed]");
 			})
 		}
 		window.addEventListener("scroll", parallax, { passive: true });
-		parallax();
+		parallax(); 
 
 
 
@@ -22,3 +22,16 @@ function contact(info)
 { 
     document.querySelector(".contact").classList.toggle("montrer")
 }
+
+window.addEventListener('scroll', titreScroll);
+
+        function titreScroll() {
+            var elements = document.querySelectorAll('.taillemin'); 
+            elements.forEach(function (element) {
+                if (element.getBoundingClientRect().top >=0 && element.getBoundingClientRect().top <=(window.innerHeight || document.documentElement.clientHeight)) {
+                    element.classList.add('projet'); 
+                }
+                else
+                    element.classList.remove('projet');
+            });
+        }

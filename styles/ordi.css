@@ -1,5 +1,10 @@
 @media screen and (min-width: 800px){
 
+    h1{
+        font-size: 160px;
+        margin: -10px auto 30px 50px;
+       
+    }
 
     h2{
         font-size: 70px;
@@ -16,6 +21,10 @@
     span{
         font-size: 70px;
     
+    }
+
+    .text{
+        font-size: 20px;
     }
 
     video{
@@ -56,7 +65,88 @@
         grid-row: span 2;
     }
 
+    .mont{
+        transform: translateY(-50dvh) ;
+        
+    }
+
+    .head1{
+        padding-bottom: 340px;
+    }
+
+    .sectionGauche{
+        display:flex;
+    }
+
+    .card{
+        height: 40dvh;
+        width: 50dvh;
+        min-width: 250px;
+    }
+
+    .taillemin{
+        min-width: 650px;
+    }
     
+    .card{
+        min-width: 100px;
+    }
+    .miniature{
+        border-radius: 8vh;
+    
+    }
+    .taillemin{
+        min-width: 300px;
+    }
+
+
+
+
+    .sec2{
+        transform: translate(100px,-130px);
+    }
+    
+    .sec2bis{
+        margin-left: 100px;
+    }
+    
+    .sec3{
+        transform: rotate(90deg);
+        right:-200px;
+        bottom:-800px;
+    }
+    .sec4{
+        transform: translateY(10dvw) ;
+    }
+    
+    .sec5{
+        transform: translateY(1400px);
+    }
+
+    .mod{
+        margin-top: -140px;
+    }
+
+    .montrer{
+        top:-100px;
+        right:86%;
+    }
 
     
 }
+
+
+
+
+
+
+@media screen and (min-width: 580px){
+
+    .mont{
+      transform: translateY(-38dvh) ;
+      
+  }
+}
+
+
+

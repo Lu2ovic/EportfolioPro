@@ -1,0 +1,38 @@
+@media screen and (min-width: 443px){
+    
+    h1{
+        font-size: 120px;
+       
+    }
+
+
+    h2{
+        font-size: 35px;
+    }
+    
+    h3{
+        font-size: 18px;
+    }
+
+    span{
+        font-size: 35px;
+    
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .montrer{
+        top:-100px;
+        right:60%;
+    }
+
+    .transparent{
+        font-size: 38px;
+        
+    }
+
+    
+    
+}
