@@ -71,7 +71,7 @@ h1{
     text-align: center;
     margin: -10px auto 30px 50px;
     z-index: 1;
-    animation:arriveGauche 2s;
+    animation:arriveGauche 1.2s;
     animation-timing-function: cubic-bezier(0, 0.25, 0.09, 0.86);
 }
 
@@ -108,20 +108,28 @@ a{
 }
 
 .clickable{
-    transition: 0.4s ease-out;
+    transition: 0.3s ease-out;
 }
 
 .clickable:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
     background-color:#597ed6;
 }
 
 .clickableb{
-    transition: 0.4s ease-out;
+    transition: 0.3 ease-out;
 }
 
 .clickableb:hover {
     transform: scale(1.1);
+}
+
+.clickmarge{
+    transition: 0.3s ease-out;
+}
+.clickmarge:hover{
+    background-color:#597ed6;
+    padding-left:40px;
 }
 
 div{
@@ -188,7 +196,7 @@ h3{
 
 
 .ArriveT{
-    animation:arrive 2s;
+    animation:arrive 1.2s;
     animation-timing-function: cubic-bezier(0, 0.25, 0.09, 0.86);
 }
 
@@ -342,7 +350,7 @@ section{
     margin:10px;
     margin-top: 0px;
     padding: 0px;
-    font-size: 12px;
+    font-size: 10px;
     
 }
 
@@ -350,7 +358,7 @@ section{
     display: block;
     position:fixed;
     top:-30px;
-    right:-10%;
+    right:0;
     border-radius: 10vh;
     padding: 24px;
     z-index: 1;
@@ -359,7 +367,7 @@ section{
 .apve{
     gap:10px;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 13px;
     align-items: center;
 }
@@ -367,7 +375,7 @@ section{
 .ap{
     gap:10px;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 260px;
     margin-left: 13px;
     align-items: center;

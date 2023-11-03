@@ -31,7 +31,5 @@ window.addEventListener('scroll', titreScroll);
                 if (element.getBoundingClientRect().top >=0 && element.getBoundingClientRect().top <=(window.innerHeight || document.documentElement.clientHeight)) {
                     element.classList.add('projet'); 
                 }
-                else
-                    element.classList.remove('projet');
             });
         }
