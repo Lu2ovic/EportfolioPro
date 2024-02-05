@@ -21,6 +21,11 @@ footer{
     margin-bottom: 20px;
 }
 
+.Facc{
+    padding-bottom: 20px;
+    transform: translateY(1900px);
+}
+
 .head1{
     background-color: #4165BA;
     padding-bottom: 240px;
@@ -32,7 +37,6 @@ footer{
 
 main{
     background-color: #4165BA;
-    height:1620px;
     /*padding: 30px;*/
 }
 
@@ -317,7 +321,7 @@ section{
 
 .sec5{
     background-color: #10305d00;
-    transform: translateY(1400px);
+    transform: translateY(1640px);
 }
 
 
