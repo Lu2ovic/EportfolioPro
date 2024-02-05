@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/phone.css" media="screen and (min-width:443px)">
+    <link rel="stylesheet" href="../styles/ordi.css" media="screen and (min-width:800px)">
+    <link rel="icon" type="image/x-icon" href="../images/SVG/favicon.ico">
+    <title>Portfolio de compétence</title>
+</head>
+<body>
+    <header>
+        <a class="transparent clickableb" href="../index.html"><h3>Portfolio</h3></a><h3>|</h3><h3 class="textFonc">Ludovic</h3><h3>|</h3><h3>HAUPTMANN-HERBETTE</h3>    </header>
+    <main>
+        <div class="TPage sGauche ArriveT"><h2 class="PTP foncé">Site pour les SPA</h2></div>
+        <div class="grid">
+            <div class="elt">
+                <img class="miniature" src="../images/Accueil_SPA.png" alt="site" />
+            </div>
+            <div class="elt">
+                <h4>Contexte :</h4>
+                <p class="pargraphe">
+                    Lors de ma seconde année en BUT Métier du Multimédia et de l’Internet, j’ai été amener à créer un site de SPA, avec un autre étudiant.
+                    <br><br>Le but du site est de permettre aux différentes SPA de France de présenter son refuge, et de mettre en avant les animaux qu'ils proposent à l'adoption. L'utilisateur pourra alors contacter le refuge pour rencontrer l'animal.
+                    <br>Ce qui était demandé pour ce projet étaient une bonne expérience utilisateur, et la création de fonctionnalités faites "à la main", en essayant de présenter une fonctionnalité novatrice, pour se démarquer.
+                    <br><br>Nous avions à réaliser un logo pour la SPA, concevoir la maquette du site, concevoir la base de donner et coder le site.
+                </p>
+            </div>
+            <div class="elt">
+                <h4>Réalisation :</h4>
+                <p class="pargraphe">
+                    Personnellement, j’ai réalisé le logo, j’ai participé à la création de la maquette sur figma et j’ai développé le back end. 
+                    <br><br>
+                    J’ai créé le logo, que vous pouvez voir en haut à gauche, avec Illustrator. J’ai choisi une police très lisible associée à une icône de cœur avec une patte, pour permettre à tout le monde de bien identifier la SPA. 
+                    <br><br>
+                    Avant de concevoir la maquette nous avons défini les couleurs, les fonctionnalités et les pages, que l’on voulait voir sur le site. Nous avons choisi le jaune comme couleur principale, une couleur chaleureuse, qui nous semble être la plus adapter pour un site de SPA. La couleur pour les calls to action est rouge, la couleur de l’amour, pour représenter l’adoption et l’amour qu’on donne aux animaux. 
+                </p>
+            </div>
+            <div class="elt">
+                <img class="miniature" src="../images/figma.png" alt="site" />
+            </div>
+            <div class="elt">
+                <iframe width="100%" height="49%" src="https://www.youtube.com/embed/_etCFp5-Y80?si=07_Qq9FdNwmxSfqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>             
+                <iframe width="100%" height="49%" src="https://www.youtube.com/embed/gfc7KRO3-K4?si=Zt64kNtsXLCtSH6p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <source src="https://youtu.be/gfc7KRO3-K4" type=video/mp4>
+                </video>
+            </div>
+            <div class="elt">
+                <h4>Dévelloppement :</h4>
+                <p class="pargraphe">
+                    La base de données est logée sur Phpmyadmin et comprend les informations sur les animaux, les refuges et les utilisateurs. Le site a été codé en MVC (Modèle, Vue, Contrôleur) et en programmation orientée objet. Les langages de programmation utilisés sont le HTML, Php, Css, Javascript et du Sql. Le site est constitué de 3 configurations.
+                    <br><br>La première configuration est lorsqu’on n’est pas connecté. On a accès aux animaux, aux refuges, aux articles et à la page “comment aider?”, mais on ne peut pas liker les animaux. Sur la page Adopter on retrouve tous les animaux présents à l’adoption, avec un filtre. Il permet de filtrer en fonction de son sexe, sa taille, l’espèce, la race, … Les races sont stockées sur un document json, où ils sont associés à l’espèce. La liste des races change en fonction de l’espèce choisie. Dans la page nos refuges, nous retrouvons une carte avec tous les refuges associés à la SPA, et une barre de recherche. Avec ces deux éléments de recherche, nous permettons à l’utilisateur de trouver facilement un refuge en fonction de sa position ou de son nom.
+                    <br><br>La deuxième configuration est celle où on est connecté, pour cela il faut se connecter et/ou se créer un compte. Une fois connecté, nous avons la possibilité de liker un animal. En plus des pages précédentes on retrouve la page favoris où l’on retrouve les animaux qu’on a liker. Il y a deux formes de like, il y a les pattes qui correspondent à un like classique et il y a les coups de cœur. Les likes sont envoyés à la base de données en Ajax, pour ne pas recharger la page. Il y a aussi une fonctionnalité innovante, pour aider l’utilisateur à choisir un animal, que j’ai imaginé et conçu. Elle se nomme tu préfères, elle prend de 2, 4 ou 8 animaux où on a mis une patte (qui nous intéresse), puis elle confronte en face à face les différents animaux et l’utilisateur choisit son préféré. À la fin, celui que tu préfères est mis en coup de cœur. 
+                    <br><br>La troisième configuration est celle de l’administrateur. Il peut choisir un refuge, pour ensuite lui ajouter ou supprimer un animal. Il peut ajouter une photo de profil pour l’animal, ainsi que d'autres photos pour le présenter.
+                    
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Créé en 2023
+    </footer>
+</body>
+</html>
